@@ -1,0 +1,3870 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+/*공통 부분 start*/
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "NanumSquare", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 1100px;
+}
+
+#root .backoffice_contents {
+  width: 100%;
+  max-width: 1500px;
+  min-width: 1035px;
+  min-height: 800px;
+  /* padding-left: 20px; */
+}
+
+.backoffice_contents .table_flex {
+  display: flex;
+}
+#root .backoffice_contents input #root .backoffice_contents input[type="text"] {
+  max-width: 740px;
+}
+
+#root .backoffice_contents textarea {
+  max-width: 740px;
+}
+
+.backoffice_contents .fade {
+  opacity: 1;
+}
+
+.backoffice_contents .red_star {
+  color: red;
+}
+
+#root .Page_same_text {
+  margin: 30px 0;
+}
+
+.backoffice_contents .table_title {
+  text-align: left;
+}
+
+.backoffice_contents .table_number {
+  text-align: right;
+}
+
+.table_line_height {
+  max-width: 400px;
+}
+
+.table_href {
+  color: #3c8dbc;
+  cursor: pointer;
+}
+
+td:hover .table_href {
+  border-bottom: 1px solid #3c8dbc;
+}
+
+.backoffice_contents .backoffice_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table_number {
+  text-align: right;
+}
+
+#root .nbsp {
+  padding-left: 25px;
+}
+
+#root .backoffice_contents input[type="text"] {
+  max-width: 740px;
+}
+#root .backoffice_contents textarea {
+  max-width: 740px;
+}
+
+/* 파일선택 버튼 */
+
+.backoffice_file_wrap .file_btn {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #555555;
+  color: #fff;
+  float: right;
+  border: none;
+  font-size: 14px;
+  line-height: 13px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 35px;
+}
+
+.backoffice_file_wrap > div {
+  display: inline-block;
+  float: left;
+}
+
+.backoffice_file_wrap label {
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.backoffice_file_name > p {
+  line-height: 35px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.backoffice_file_name p + img {
+  width: 12px;
+  margin: 0 5px;
+}
+
+.backoffice_file_wrap + .red {
+  color: red;
+}
+
+/* Search 공통부분 */
+
+.backoffice_contents .search_wrap .serach_date_btn_wrap {
+  width: auto;
+  height: 40px;
+  display: inline-block;
+}
+
+.backoffice_contents .search_wrap .serach_date_btn_wrap > button {
+  width: 50px;
+  height: 28px;
+  margin: 5px 0 0 10px;
+  border: none;
+  border-radius: 5px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #fff;
+  background: #555555;
+}
+
+.backoffice_contents
+  .search_wrap
+  .serach_date_btn_wrap
+  > .serach_date_btn_active {
+  background-color: #00a7ff;
+}
+
+.backoffice_contents .backoffice_search_wrap {
+  width: 100%;
+  min-width: 1035px;
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.backoffice_contents .backoffice_search_wrap .search_wrap {
+  width: auto;
+  background: #fff;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-sizing: content-box;
+  border: 1px solid #ccc;
+}
+
+.backoffice_contents .backoffice_search_wrap .search_text_wrap {
+  width: 15%;
+  height: 140px;
+  float: left;
+  background: #f0f0f0;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.backoffice_contents .backoffice_search_wrap .white_border {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+
+.backoffice_contents .backoffice_search_wrap .search_text {
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+}
+
+.backoffice_contents .backoffice_search_wrap .search_form_wrap {
+  width: 85%;
+  float: left;
+}
+
+.backoffice_contents .backoffice_search_wrap .search_date_select {
+  width: 200px;
+}
+
+.backoffice_contents .backoffice_search_wrap .input_form {
+  height: 70px;
+  padding: 15px 10px;
+}
+
+.backoffice_contents .backoffice_search_wrap #search_df_ct_pr {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.backoffice_contents .backoffice_search_wrap .input_submit_wrap {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.backoffice_contents .backoffice_search_wrap .input_wrap .search_btn {
+  height: 40px;
+  width: 175px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 5px;
+  background: #00a7ff;
+  border: none;
+  color: #fff;
+}
+
+.backoffice_contents .search_wrap .serach_date_btn_wrap {
+  width: auto;
+  height: 40px;
+  display: inline-block;
+}
+
+.backoffice_contents .search_wrap .serach_date_btn_wrap > button {
+  width: 50px;
+  height: 28px;
+  margin: 5px 0 0 10px;
+  border: none;
+  border-radius: 5px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #fff;
+  background: #555555;
+}
+
+.backoffice_contents
+  .search_wrap
+  .serach_date_btn_wrap
+  > .serach_date_btn_active {
+  background-color: #00a7ff;
+}
+
+/* Table 공통부분 */
+
+.backoffice_contents .backoffice_table_wrap {
+  margin-top: 10px;
+}
+
+.backoffice_contents .backoffice_table_wrap .table {
+  width: 100%;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+
+.backoffice_contents .backoffice_table_wrap .tb_caption {
+  caption-side: top;
+}
+
+.backoffice_contents .backoffice_table_wrap .tb_select_wrap {
+  width: max-content;
+  float: right;
+  height: 56px;
+  line-height: 56px;
+}
+
+.backoffice_contents .backoffice_table_wrap .tb_select_wrap > button {
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 34px;
+  border: none;
+  border-radius: 5px;
+  line-height: 25px;
+  color: #fff;
+  background: #555555;
+  margin: 10px 5px 0 0;
+  font-weight: bold;
+}
+
+.backoffice_contents .backoffice_table_wrap .caption_title {
+  width: max-content;
+  float: left;
+  font-size: 18px;
+  padding-left: 5px;
+  margin: 0;
+  color: #6c6c6c;
+  font-weight: bold;
+  height: 56px;
+  line-height: 56px;
+}
+
+.backoffice_contents .backoffice_table_wrap .caption_title .number_data {
+  display: inline-block;
+  color: #00a7ff;
+  float: left;
+}
+
+.backoffice_contents .backoffice_table_wrap .table-responsive .table th {
+  height: 50px;
+  vertical-align: middle;
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  font-size: 16.5px;
+}
+
+.backoffice_contents .backoffice_table_wrap .table tr {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.backoffice_contents .backoffice_table_wrap .tb_select_wrap > select {
+  display: inline-block;
+  margin-left: 10px;
+  width: auto;
+}
+
+.backoffice_contents .backoffice_table_wrap .th_double_wrap p {
+  display: inline-block;
+  width: 50%;
+  margin: 0;
+}
+
+.backoffice_contents .backoffice_table_wrap .checkbox_wrap input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.backoffice_contents
+  .backoffice_table_wrap
+  .checkbox_wrap
+  input[type="radio"]
+  + label:before {
+  content: " ";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  line-height: 21px;
+  margin: -2px 8px 0 0;
+  text-align: center;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.backoffice_contents
+  .backoffice_table_wrap
+  .radio_inputButton_box
+  input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.backoffice_contents
+  .backoffice_table_wrap
+  .radio_inputButton_box
+  input[type="radio"]
+  + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.backoffice_contents
+  .backoffice_table_wrap
+  .radio_inputButton_box
+  input[type="radio"]
+  + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 100%;
+}
+
+.backoffice_contents
+  .backoffice_table_wrap
+  .radio_inputButton_box
+  input[type="radio"]:checked
+  + label:after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 4px;
+  width: 13px;
+  height: 13px;
+  background: #99a1a7;
+  border-radius: 100%;
+  background-color: #00a7ff;
+}
+
+.backoffice_contents .backoffice_table_wrap .table_view_btn {
+  padding: 3px 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: #666;
+  color: #fff;
+}
+
+.backoffice_contents .backoffice_table_wrap .table_view_btn {
+  width: 70px;
+  border-radius: 4px;
+  border: none;
+  background-color: #666;
+  color: #fff;
+  padding: 0;
+}
+
+.table_min_w {
+  min-width: 72px;
+}
+
+/* Pagination */
+
+.backoffice_contents .pagination_wrap {
+  width: 100%;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.backoffice_contents .pagination_btn_wrap {
+  display: inline-block;
+  text-align: center;
+}
+
+.backoffice_contents .prev_btn_wrap {
+  display: inline-block;
+}
+
+.backoffice_contents .pagination_wrap img {
+  width: 28px;
+  padding: 0 2px;
+}
+
+/* Tabs 공통 부분 */
+
+.forum_main_box .backoffice_tab_wrap > a {
+  width: 170px !important;
+}
+
+.backoffice_contents .backoffice_tab_wrap {
+  width: 100%;
+  margin-top: 25px;
+  border-bottom: 1px solid #00a7ff;
+  margin-bottom: 40px;
+}
+
+.backoffice_contents .backoffice_tab_wrap .nav-link.active {
+  border-color: #00a7ff #00a7ff #fff;
+  color: #00a7ff;
+}
+
+.backoffice_contents .backoffice_tab_wrap > a {
+  width: 140px;
+  height: 45px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #adadad;
+}
+
+.backoffice_contents .backoffice_tab_wrap > a:hover {
+  border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.backoffice_contents .number_btn_wrap {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.backoffice_contents .number_btn_wrap p {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.backoffice_contents .next_btn_wrap {
+  display: inline-block;
+}
+
+.backoffice_contents .next_btn_wrap img {
+  transform: rotate(180deg);
+}
+
+/* button 버튼 공통 부분 */
+
+.backoffice_contents .button_s_box {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.backoffice_contents .not_search_btn {
+  height: 40px;
+  width: 175px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 5px;
+  background: white;
+  color: #00a7ff;
+  border: 1px solid #00a7ff;
+}
+
+.backoffice_contents .search_btn {
+  width: 176px;
+  height: 40px;
+  border-radius: 35px;
+  font-size: 15.5px;
+  margin: 0 5px;
+  background: #00a7ff;
+  color: #fff;
+  border: none;
+}
+
+/* basic_info 공통 부분 기본정보 */
+
+.backoffice_contents .exposure_info_title_wrap {
+  display: inline-block;
+  width: 100%;
+}
+
+.backoffice_contents .exposure_info_title_wrap > p {
+  line-height: inherit;
+  font-size: 21px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.backoffice_contents .exposure_info_title_wrap p {
+  width: max-content;
+  border-bottom: hidden;
+  float: left;
+  padding-left: 5px;
+}
+
+.backoffice_contents .exposure_text {
+  color: red;
+  margin-left: 10px;
+  font-weight: bold;
+  float: right;
+  line-height: 52px;
+  margin-top: 0px;
+}
+
+.backoffice_contents .exposure_info_input_wrap {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+  border-top: 1px solid #ccc;
+}
+
+.backoffice_contents .exposure_info_input_table_wrap {
+  width: 100%;
+  height: max-content;
+  display: flex;
+}
+
+.backoffice_contents
+  .exposure_info_input_table_wrap:nth-child(1)
+  .exposure_info_input_left_wrap {
+  line-height: 70px;
+}
+
+.backoffice_contents .exposure_info_input_left_wrap {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.backoffice_contents .exposure_info_input_left_wrap {
+  width: 10%;
+  min-width: 160px;
+  display: inline-block;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  font-size: 16.5px;
+  font-weight: bold;
+  float: left;
+  line-height: 65px;
+}
+
+.backoffice_contents .exposure_info_input_right_wrap {
+  width: 90%;
+  float: left;
+  padding: 20px 0 0px 15px;
+  display: inline-block;
+}
+
+.backoffice_contents
+  .exposure_info_input_table_wrap:last-child
+  .exposure_info_input_right_wrap {
+  margin-bottom: 20px;
+}
+
+.backoffice_contents
+  .exposure_info_input_table_wrap:nth-child(1)
+  .exposure_info_input_right_wrap
+  > p,
+.backoffice_contents
+  .exposure_info_input_table_wrap:nth-child(2)
+  .exposure_info_input_right_wrap
+  textarea {
+  margin-top: 5px;
+}
+
+.backoffice_contents .exposure_info_input_right_wrap textarea + p,
+.backoffice_contents .exposure_info_input_right_wrap input + p {
+  margin-top: 5px;
+}
+
+.backoffice_contents .exposure_info_input_right_wrap > p {
+  display: inline-block;
+  color: red;
+  font-weight: bold;
+}
+
+.backoffice_contents .exposure_info_input_right_wrap p {
+  margin: 0;
+}
+
+.backoffice_contents .privacy_wrap > input {
+  width: 173px;
+  height: 35px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.backoffice_contents .privacy_wrap div {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.backoffice_contents .privacy_wrap div {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.backoffice_contents .privacy_email_address {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.backoffice_contents .privacy_wrap {
+  margin-bottom: 5px;
+}
+
+.backoffice_contents .exposure_info_wrap .type_select {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.backoffice_contents .exposure_info_wrap .type_select > p {
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  background-color: #eaebec;
+  float: left;
+  line-height: 40px;
+  padding-left: 20px;
+  font-size: 16.5px;
+  font-weight: 600;
+  margin: 0 15px;
+  border-radius: 5px;
+}
+
+.backoffice_contents .exposure_info_input_right_right_wrap > select {
+  display: inline-block;
+}
+
+.backoffice_contents .exposure_info_wrap .type_select > p > p {
+  display: inline-block;
+  padding-left: 5px;
+  color: red;
+}
+
+.backoffice_contents .exposure_info_input_left_wrap > p {
+  display: inline-block;
+  color: red;
+}
+
+.backoffice_contents .exposure_info_input_right_wrap select {
+  width: 180px;
+  height: 40px;
+}
+
+.backoffice_contents .checkbox_wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.backoffice_contents .sp_select_input_box {
+  display: flex;
+}
+
+.backoffice_contents .checkbox_wrap input[type="checkbox"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.backoffice_contents .checkbox_wrap input[type="checkbox"] + label {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin: 0;
+}
+
+.backoffice_contents .checkbox_wrap input[type="checkbox"] + label:before {
+  content: " ";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  line-height: 21px;
+  margin: -2px 8px 0 0;
+  text-align: center;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.backoffice_contents
+  .checkbox_wrap
+  input[type="checkbox"]:checked
+  + label:before {
+  content: "\2714";
+  color: #fff;
+  background: #00a7ff;
+  border: hidden;
+}
+
+.backoffice_contents .sp_endpoint_box_url {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.backoffice_contents .sp_endpoint_box_url p {
+  font-weight: bold;
+  color: #889988;
+}
+
+.backoffice_contents .sp_endpoint_box_url .form-control {
+  width: 650px;
+  margin-left: 10px;
+}
+
+.backoffice_contents .sp_endpoint_box_url .btn-primary {
+  width: 85px;
+  height: 35px;
+  background-color: #555555;
+  margin-left: 10px;
+}
+
+/* Sale_info 판매정보 공통부분 */
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .table-responsive {
+  overflow-x: hidden;
+}
+
+.backoffice_contents .table-responsive .table {
+  width: 100%;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .table tr {
+  border: hidden;
+  border-top: 1px solid #ccc;
+  border-radius: 50px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .big_table td {
+  width: 10%;
+  border-left: hidden;
+  padding-right: 0;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .big_table
+  tr:last-child {
+  border-bottom: 1px solid #ccc;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .big_tr
+  .service_icon {
+  vertical-align: top !important;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .big_table
+  td:first-child {
+  text-align: left;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 16.5px;
+  min-width: 160px;
+}
+
+.backoffice_contents .service_icon_box {
+  padding-top: 20px;
+}
+
+.backoffice_contents .service_iocn_small_box {
+  text-align: left;
+  margin-left: 16px;
+}
+
+.backoffice_contents .service_icon_text {
+  font-size: 14px;
+  color: red;
+  padding-top: 7px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  #check_box_input_box {
+  display: flex;
+  align-items: center;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  #sp_check_box_radio_box {
+  display: flex;
+  align-items: center;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .checkbox_radio_wrap {
+  margin: 0 5px;
+  display: inline-block;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  #number_input_box
+  .spac_input {
+  width: 230px;
+  height: 35px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .number_input_big_box
+  .spac_input {
+  margin-left: 16px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .big_service_icon_screen_box {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .screen_shot_text_box {
+  text-align: left;
+  margin-left: 16px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .big_screen_div {
+  width: 100%;
+  display: flex;
+  margin-top: 26px;
+  margin-left: 25px;
+}
+
+.backoffice_contents #rule_image_box > .service_icon_big_box {
+  margin-right: 87px;
+}
+
+.backoffice_contents .second_table_box {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.backoffice_contents .end_box_padding {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .red_screen_wh {
+  font-size: 14px;
+  color: red;
+  padding-top: 7px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .input_box_screen {
+  width: 100%;
+  margin-left: 30px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .first_screen_box,
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .second_screen_box {
+  display: flex;
+  align-items: center;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .input_box_screen
+  span {
+  font-weight: 500;
+  width: 100px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .input_box_screen
+  .form-control {
+  width: 800px;
+}
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .first_screen_box
+  .form-control {
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .second_screen_box
+  .form-control {
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .second_screen_box
+  span {
+  padding-bottom: 30px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .table_head_text {
+  text-align: left;
+  padding-left: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.backoffice_contents .sale_table_box {
+  width: 740px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  background-color: #ececec;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.big_table .service_icon {
+  border-right: 1px solid #cfcfcf;
+}
+
+.backoffice_contents .gray_move_big_box {
+  margin-left: 20px;
+}
+
+.backoffice_contents #radio_input_wrpa_box {
+  padding-top: 20px;
+}
+
+.backoffice_contents .big_count_box {
+  padding-top: 5px;
+}
+
+.backoffice_contents .big_count_box {
+  padding-top: 5px;
+}
+
+.backoffice_contents .first_double_input_box {
+  display: flex;
+  align-items: center;
+}
+
+.backoffice_contents #sp_dobule_input_box {
+  margin-top: 10px;
+}
+
+.backoffice_contents .first_double_input_box > span {
+  color: #696969;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.backoffice_contents .first_double_input_box > span:first-child {
+  padding-right: 5px;
+}
+
+.backoffice_contents .first_double_input_box > span:nth-child(3) {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.backoffice_contents #sp_add_import_check {
+  margin-left: 8px;
+  margin-right: 5px;
+}
+
+.backoffice_contents #sp_dobule_input_box .btn-primary {
+  width: 60px;
+  height: 28px;
+  line-height: 15px;
+  background-color: #555555;
+  margin-left: 10px;
+}
+
+.backoffice_contents .first_double_input_box > span:nth-child(5) {
+  padding-left: 5px;
+}
+
+.backoffice_contents .first_double_input_box .form-control {
+  width: 180px;
+  height: 35px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .first_gray_table_box {
+  width: 740px;
+  background-color: #ececec;
+  border-radius: 5px;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .second_table_big_box {
+  width: 740px;
+  background-color: #ececec;
+  border-radius: 5px;
+  text-align: left;
+  padding-bottom: 15px;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .radio_inputButton_box {
+  font-size: 14px;
+}
+
+.backoffice_contents .radio_inputButton_box input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.backoffice_contents .radio_inputButton_box input[type="radio"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.backoffice_contents .radio_inputButton_box label {
+  margin-right: 20px;
+}
+
+.backoffice_contents .radio_inputButton_box input[type="radio"] + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0px;
+  width: 21px;
+  height: 21px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #d4d4d4;
+  border-radius: 100%;
+}
+
+.backoffice_contents
+  .radio_inputButton_box
+  input[type="radio"]:checked
+  + label:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  width: 13px;
+  height: 13px;
+  background: #99a1a7;
+  border-radius: 100%;
+  background-color: #00a7ff;
+}
+
+.backoffice_contents .checkbox_radio_wrap input[type="radio"] + label:before {
+  content: " ";
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  line-height: 21px;
+  margin: -2px 8px 0 0;
+  text-align: center;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.backoffice_contents
+  .checkbox_radio_wrap
+  input[type="radio"]:checked
+  + label:before {
+  content: "\2714";
+  color: #fff;
+  background: #00a7ff;
+  border: hidden;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .money_service_text {
+  color: red;
+  margin-left: 50px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .radio_inputButton_box
+  .btn-primary {
+  width: 120px;
+  height: 30px;
+  background-color: #555555;
+  line-height: 15px;
+  margin-left: 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .first_gray_table_box {
+  width: 740px;
+  background-color: #ececec;
+  border-radius: 5px;
+  text-align: left;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .first_gray_small_box {
+  margin-left: 20px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .same_point_text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .small_text_table_box {
+  margin-top: 25px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .radio_inputButton_box {
+  font-size: 14px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .input_select_box {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 27px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .small_text_table_box
+  .btn-primary {
+  width: 95px;
+  height: 25px;
+  background-color: #555555;
+  line-height: 10px;
+  margin-left: 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .input_select_box
+  .form-control {
+  width: 185px;
+  height: 35px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap #boot_input_box {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .left_casch {
+  margin-right: 5px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .right_cash {
+  margin-left: 5px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .line_box {
+  padding-top: 15px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .input_select_box_v2 {
+  margin-top: 5px;
+  margin-left: 27px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .boot_input_box {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .input_select_box_v2
+  .form-control {
+  width: 185px;
+  height: 35px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .add_box
+  .btn-primary {
+  width: 50px;
+  height: 30px;
+  background-color: #555555;
+  line-height: 10px;
+  margin-left: 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .last_text_red_box {
+  padding-top: 10px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .last_text {
+  color: red;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .second_small_table_box {
+  margin-left: 20px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .same_point_text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .max_number_box {
+  padding: 20px 0 20px 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .max_number_box
+  .input_width {
+  width: 740px;
+}
+
+.backoffice_contents .checkbox_radio_wrap input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  #sp_check_box_radio_box
+  .checkbox_design {
+  padding-top: 5px;
+  margin-left: 20px;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .button_text_box {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.backoffice_contents .Data_Approved_management_sale_tab_wrap .img_close_in_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .img_close_in_img
+  img {
+  width: 15px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+
+.backoffice_contents
+  .Data_Approved_management_sale_tab_wrap
+  .file_sp_wrap
+  label {
+  width: 80px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  background: #555555;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Sales_data_management 승인심사 */
+
+.backoffice_contents .judge_table_top_btn,
+.backoffice_contents .judge_table_bottom_btn {
+  text-align: center;
+}
+
+.judge_table_top_btn button {
+  margin-right: 10px;
+  background-color: #00a7ff;
+  border: none;
+  color: #fff;
+}
+.backoffice_contents .judge_table_top_btn button {
+  margin-right: 10px;
+  background-color: #00a7ff;
+  border: none;
+  color: #fff;
+}
+
+.backoffice_contents .judge_table_btn button {
+  width: 176px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 15.5px;
+  font-weight: 400;
+  margin: 15px 0;
+}
+
+.backoffice_contents .judge_table_bottom_btn button {
+  border: 1px solid #00a7ff;
+  background-color: #fff;
+  color: #00a7ff;
+}
+
+.backoffice_contents .judge_table_bottom_btn {
+  margin-bottom: 40px;
+}
+
+.backoffice_contents .tb_caption {
+  caption-side: top;
+  float: left;
+}
+
+.backoffice_contents .table tr {
+  border-radius: 50px;
+  border: 1px solid #ccc;
+}
+
+.backoffice_contents .table-responsive .table th {
+  height: 50px;
+  vertical-align: middle;
+  background-color: #f0f0f0;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  font-size: 16.5px;
+}
+
+.backoffice_contents .table-responsive .table td > p {
+  display: inline-block;
+  background-color: #555555;
+  width: 64px;
+  height: 21px;
+  line-height: 21px;
+  color: #fff;
+  font-size: 13px;
+  margin-left: 10px;
+  border-radius: 15px;
+  margin-bottom: 0;
+}
+
+.backoffice_contents .judge_table_title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.backoffice_contents .table-responsive .table td > p {
+  display: inline-block;
+  background-color: #555555;
+  width: 64px;
+  height: 21px;
+  line-height: 21px;
+  color: #fff;
+  font-size: 13px;
+  margin-left: 10px;
+  border-radius: 15px;
+  margin-bottom: 0;
+}
+
+.backoffice_contents .table-responsive .table {
+  font-size: 15px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* management_judge 승인심사 공통부분 */
+
+.backoffice_contents .Data_Approved_management_judge > p {
+  padding-left: 15px;
+  color: red;
+}
+
+.backoffice_contents .Data_Approved_management_judge > div {
+  display: inline-block;
+  padding-left: 10px;
+}
+
+.Data_Approved_management_judge > textarea {
+  margin: 10px;
+  padding-left: 10px;
+}
+
+.Data_Approved_management_judge button {
+  margin: 10px;
+}
+
+.Data_Approved_management_judge button + p {
+  padding-left: 10px;
+}
+
+.exposure_info_input_right_wrap > form {
+  display: inline-block;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.checkbox_radio_wrap input[type="radio"] + label {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+/* using_infra 사용 인프라 서비스 */
+.Infra_approve_wrap .judge_table_title {
+  padding-bottom: 20px;
+}
+
+.Infra_approve_wrap .judge_table {
+  width: 100%;
+}
+
+.Infra_approve_wrap .judge_table .judge_table_right {
+  width: 32%;
+  min-width: auto;
+}
+
+.Infra_approve_wrap .judge_table .judge_table_right .infra_btn {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.Infra_approve_wrap .judge_table .judge_table_right .infra_btn.infra_submit {
+  background-color: #fff;
+  color: #555;
+}
+
+.Infra_approve_wrap .judge_table .judge_table_left > div:last-child,
+.Infra_approve_wrap .judge_table_right > div:last-child {
+  height: auto;
+}
+
+.Infra_approve_wrap .judge_table_btn {
+  float: right;
+}
+.Infra_approve_wrap .judge_table_title + .judge_table {
+  height: 180px;
+}
+
+.Infra_approve_wrap .judge_table_left {
+  min-width: 160px;
+  height: 280px;
+  width: 10%;
+  float: left;
+  background-color: #ececec;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.Infra_approve_wrap .judge_table_left,
+.Infra_approve_wrap .judge_table_right {
+  height: auto;
+}
+
+.Infra_approve_wrap .judge_table_right > div button {
+  width: 80px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+  background: #555555;
+  text-align: center;
+}
+
+.Infra_approve_wrap .judge_table_left > div,
+.Infra_approve_wrap .judge_table_right > div {
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.backoffice_contents .Infra_approve_wrap .judge_table_title + .judge_table {
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  margin: 5px 0px;
+}
+
+.Infra_approve_wrap .judge_table_right {
+  width: 82%;
+  min-width: 835px;
+  height: 250px;
+  float: left;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.Infra_approve_wrap .judge_table_left > div,
+.Infra_approve_wrap .judge_table_right > div {
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.Infra_approve_wrap .judge_table_right > div {
+  border-bottom: none;
+}
+
+/* User_info 회원정보 */
+
+.backoffice_contents .user_info_wrap .backoffice_title {
+  display: inline-block;
+}
+
+.backoffice_contents .user_info_wrap .user_number_bar {
+  float: right;
+  padding: 5px 10px 5px 20px;
+  border: 1px solid #ccc;
+}
+.backoffice_contents .user_info_wrap .user_number_bar > p:nth-child(2n) {
+  color: #00a7ff;
+}
+
+.backoffice_contents .user_info_wrap .user_number_bar > p {
+  margin: 0px;
+  line-height: 30px;
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 2px;
+}
+
+/* User_info_detail 회원상세정보 */
+.user_info_detail_wrap .backoffice_title {
+  float: left;
+}
+
+.user_info_detail_wrap .title_side_btn {
+  float: right;
+}
+
+.user_info_detail_wrap .title_side_btn button {
+  padding: 5px 25px;
+}
+
+.user_info_detail_wrap .title_side_btn button:first-child {
+  margin-right: 10px;
+}
+
+.user_info_detail_wrap .join_info_table_wrap {
+  width: 50%;
+  float: left;
+  margin-top: -30px;
+}
+
+.user_info_detail_wrap .user_join_info .join_info_table_wrap {
+  padding-right: 7px;
+}
+
+.user_info_detail_wrap .join_info_table_wrap .table-responsive .table th {
+  text-align: right;
+  width: 200px;
+  min-width: 180px;
+  padding-right: 10px;
+}
+
+.user_info_detail_wrap .join_info_table_wrap td {
+  text-align: left;
+}
+
+.user_info_detail_wrap .join_info_table_wrap tr:nth-child(11) td {
+  min-width: 320px;
+}
+
+.user_info_detail_wrap .join_info_table_wrap td select {
+  width: 200px;
+  padding: 6px 5px;
+  border-radius: 5px;
+}
+
+.user_info_detail_wrap .join_info_table_wrap td textarea {
+  width: 100%;
+  height: 77px;
+  border-radius: 5px;
+  padding: 0 2px;
+}
+
+.user_info_detail_wrap .join_info_table_wrap td input[type="text"] {
+  border: solid 1px #bcbcbc;
+  border-radius: 5px;
+  padding: 2px 0;
+}
+
+#root .backoffice_contents .user_info_detail_wrap .file_upload {
+  width: 120px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid rgb(100, 100, 100);
+  color: rgb(100, 100, 100);
+}
+
+.backoffice_contents .user_info_detail_wrap .account_number {
+  display: inline-block;
+}
+
+.backoffice_contents .user_info_detail_wrap .join_info_table_wrap td select {
+  -webkit-border-radius: 0;
+}
+.user_info_detail_wrap .info_tabs {
+  width: 100%;
+  margin: 25px 0;
+  border-bottom: solid 1px #00a7ff;
+}
+
+.user_info_detail_wrap .info_tabs a {
+  width: 140px;
+  height: 45px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #adadad;
+}
+
+.user_info_detail_wrap .info_tabs .nav-link.active {
+  border-color: #00a7ff #00a7ff #fff;
+  color: #00a7ff;
+}
+
+.calculate_table_wrap tbody td {
+  text-align: right;
+}
+
+.calculate_table_wrap tbody tr td:nth-child(1),
+.calculate_table_wrap tbody tr td:nth-child(7),
+.calculate_table_wrap tbody tr td:nth-child(8) {
+  text-align: center;
+}
+
+/* sales_data_management_list 판매데이터 관리 목록 */
+
+.backoffice_contents
+  .sales_data_management_list_wrap
+  .sales_data_management_sub,
+.backoffice_contents
+  .Sales_Service_management_list_wrap
+  .sales_data_management_sub {
+  display: inline-block;
+  padding: 5px 10px 5px 20px;
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.backoffice_contents
+  .sales_data_management_list_wrap
+  .sales_data_management_sub
+  div,
+.backoffice_contents
+  .sales_data_management_list_wrap
+  .sales_data_management_sub
+  p,
+.backoffice_contents
+  .Sales_Service_management_list_wrap
+  .sales_data_management_sub
+  div,
+.backoffice_contents
+  .Sales_Service_management_list_wrap
+  .sales_data_management_sub
+  p {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.backoffice_contents
+  .sales_data_management_list_wrap
+  .sales_data_management_sub
+  div,
+.backoffice_contents
+  .Sales_Service_management_list_wrap
+  .sales_data_management_sub
+  div {
+  margin-right: 10px;
+}
+
+.backoffice_contents
+  .sales_data_management_list_wrap
+  .sales_data_management_sub
+  p,
+.backoffice_contents
+  .Sales_Service_management_list_wrap
+  .sales_data_management_sub
+  p {
+  margin-right: 3px;
+}
+
+.backoffice_contents
+  .sales_data_management_list_wrap
+  .sales_data_management_sub
+  p:nth-child(2n),
+.backoffice_contents
+  .Sales_Service_management_list_wrap
+  .sales_data_management_sub
+  p:nth-child(2n) {
+  color: #00a7ff;
+}
+
+.Notice_information_wrap,
+.Post_uploade_modfiy_wrap,
+.Notice_detail_wrap,
+.faq_main,
+.faq_detail_wrap,
+.question_wrap,
+.question_detail,
+.update_wrap,
+.update_detail_wrap,
+.question_answer_detail,
+.forum_main_box,
+.forum_detail_box {
+  max-width: 1500px;
+  width: 100%;
+  min-width: 1035px;
+}
+
+#big_admin_headerText_box {
+  height: 140px;
+}
+
+#post_headerText_box {
+  height: 70px;
+  margin-bottom: 40px;
+}
+
+#faq_post_headerText_box {
+  height: 140px;
+  margin-bottom: 40px;
+}
+
+#notice_input_box_header {
+  height: 140px;
+}
+
+#faq_post_input_box_header {
+  height: 140px;
+}
+
+#post_input_box_header {
+  height: 70px;
+}
+
+#faq_input_box_header {
+  height: 210px;
+}
+
+.admin_user_list_wrap {
+  margin: 0 auto;
+  border-radius: 5px;
+  box-sizing: content-box;
+  border: 1px solid #ccc;
+  width: auto;
+  background: #fff;
+}
+
+.admin_user_list_header {
+  float: left;
+  background: #f0f0f0;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 15%;
+}
+
+.notice_input_box {
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+}
+
+.notice_white_border {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+
+#big_admin_headerText_box .input_box_wrap {
+  height: 140px;
+}
+
+#Notice_input_box .form-control {
+  width: 740px;
+}
+
+.calender_box {
+  display: flex;
+  align-items: center;
+}
+
+.calender_box span {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.calender_box .first_calender {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cccccc;
+}
+
+.calender_box .second_calender {
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cccccc;
+}
+
+.Notice_search_box {
+  text-align: center;
+  margin: auto;
+}
+
+.Notice_search_box button {
+  height: 40px;
+  width: 175px;
+  border-radius: 35px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 5px;
+  background: #00a7ff;
+  border: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.notice_input_form {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+#big_admin_table_box {
+  margin-top: 100px;
+}
+
+#big_admin_table_box .table {
+  width: 100%;
+}
+
+.backoffice_contents .backoffice_table_wrap tbody tr td .modify_btn_box button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.big_cpation_box {
+  display: flex;
+  align-items: center;
+}
+
+.cpation_delete_box {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.big_cpation_box .cpation_delete_btn {
+  background-color: #00a7ff;
+  border: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.table_uploade_gaci_box {
+  display: flex;
+}
+
+.table_select_box {
+  display: flex;
+  height: 20px;
+}
+
+#select_cpation_uploade_box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+#select_result_delete_btn_box {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.table_result_number_box {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+}
+
+.backoffice_contents .backoffice_table_wrap #select_cpation_uploade_box button,
+.backoffice_contents
+  .backoffice_table_wrap
+  #select_result_delete_btn_box
+  button {
+  margin: 0px 0px 0 0;
+}
+
+.admin_sp_text {
+  color: #00a7ff;
+  padding-right: 5px;
+}
+
+.posts_btn_box {
+  float: right;
+  margin-top: 30px;
+}
+
+.posts_btn_box button {
+  background-color: #555555;
+  border: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+}
+
+.posts_btn_box button:first-child {
+  margin-right: 10px;
+}
+
+.Posts_box .jodit_wysiwyg {
+  height: 500px !important;
+}
+
+.notice_title_box {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.notice_title_box .notice_left_text_box {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.notice_title_box .notice_left_text_box > .notice_detail_sp_text {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.notice_detail_sp_text span {
+  color: #00a7ff;
+}
+
+.notice_title_box .notice_left_text_box > p:nth-child(2) {
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.notice_title_box {
+  display: flex;
+}
+
+.notice_title_box .notice_right_text_box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.notice_title_box .notice_right_text_box p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.notice_detail_contents_box {
+  padding: 40px 0;
+  border-bottom: 2px solid #292e3a;
+}
+
+.notice_detail_contents_box p {
+  margin: 0;
+  font-size: 17px;
+  padding-left: 10px;
+  font-weight: 500;
+  line-height: 35px;
+}
+
+.first_conents_text {
+  padding-bottom: 40px;
+}
+
+.second_conents_text {
+  padding-bottom: 40px;
+}
+
+.notice_btn_box {
+  margin-top: 20px;
+  float: right;
+}
+
+.notice_btn_box button {
+  margin-left: 10px;
+}
+
+.faq_header_list_box {
+  width: auto;
+  background: #fff;
+  height: 210px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-sizing: content-box;
+  border: 1px solid #ccc;
+}
+
+.faq_input_box_header {
+  width: 15%;
+  height: 210px;
+  float: left;
+  background: #f0f0f0;
+  margin: 0 auto;
+  font-size: 17px;
+  color: #000;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.faq_input_form {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.faq_input_box {
+  height: 70px;
+  line-height: 70px;
+  padding-left: 20px;
+}
+
+.faq_white_border {
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc;
+}
+
+#select_cpation_uploade_box #faq_uploade_btn {
+  margin-right: 10px;
+}
+
+.backoffice_table_wrap .table tr .success_answer button {
+  width: 75px;
+  height: 20px;
+  background-color: #555555;
+  font-size: 13px;
+  border-radius: 150px;
+  border: none;
+  color: white;
+}
+
+.backoffice_table_wrap .table tr .fail_answer {
+  color: #ff4242;
+}
+
+.backoffice_table_wrap #big_admin_table_box tr td:nth-child(3) {
+  text-align: left;
+  width: 40%;
+}
+
+.backoffice_table_wrap #faq_table_box tr td:nth-child(3) {
+  text-align: left;
+  width: 40%;
+}
+
+.backoffice_table_wrap #question_table tr td:nth-child(3) {
+  text-align: left;
+}
+
+.answer_headline_box {
+  margin-top: 20px;
+  border-bottom: 1px solid #eaeaea;
+  margin-bottom: 20px;
+}
+
+.answer_headline_box p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#question_detail_box {
+  margin-bottom: 80px;
+}
+
+#question_answer_detail_box {
+  display: flex;
+  width: 100%;
+}
+
+#question_answer_detail_box .question_answer_result_box {
+  width: 100%;
+}
+
+#question_answer_detail_box .question_answer_result_box #question_result {
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#question_answer_detail_box .question_answer_date_box {
+  float: right;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#question_answer_detail_box .question_answer_date_box p {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.answer_link_text span {
+  color: #00a7ff;
+  font-weight: 600;
+  border-bottom: 1px solid #00a7ff;
+  cursor: pointer;
+}
+
+#uploade_talbe_box tr td:nth-child(2) {
+  text-align: left;
+}
+
+.faq_headline_text_box p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.table_image {
+  padding-left: 15px;
+}
+
+.profile_box {
+  width: 100%;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.profile_box p {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.profile_box span {
+  color: #00a7ff;
+  padding-right: 5px;
+}
+
+.profile_circle_box {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  background-color: #d3d3d3;
+  line-height: 35px;
+  text-align: center;
+}
+
+.porfile_info_box {
+  padding-top: 10px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  line-height: 60px;
+  height: 60px;
+}
+
+.left_profile_box {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  font-size: 16.5px;
+  font-weight: bold;
+}
+
+.left_profile_box p {
+  padding-left: 10px;
+}
+
+.right_profile_box {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  color: #c8c8c8;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.posts_image_box {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.posts_contents_box {
+  border-bottom: 1px solid #eaeaea;
+}
+
+.posts_comment_box {
+  height: 40px;
+  padding-left: 10px;
+  line-height: 40px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: left;
+  display: flex;
+}
+
+.post_comment_button_box {
+  width: 100%;
+}
+
+.posts_forum_image_box img {
+  width: 50%;
+}
+.post_comment_button_box .comment_label {
+  margin: -7px 0 0 2px;
+}
+
+.admin_posts_btn_box button {
+  width: 70px;
+  height: 25px;
+  line-height: 25px;
+  background-color: rgb(85, 85, 85);
+  color: white;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  border-radius: 5px;
+}
+
+.admin_posts_btn_box button:first-child {
+  margin-right: 10px;
+}
+
+.admin_posts_btn_box {
+  width: 100%;
+  text-align: right;
+}
+
+.big_posts_gaci_comments_box {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.admin_posts_input_gaci_box {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.admin_post_comment_input_real_box {
+  height: 140px;
+  border: 1.2px solid #bbbbbb;
+  position: relative;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.admin_profile_big_box {
+  display: flex;
+}
+
+.admin_post_comment_input_real_box .admin_profile_box {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #d3d3d3;
+  line-height: 30px;
+  text-align: center;
+}
+
+.admin_post_comment_input_real_box .admin_profile_box img {
+  padding-right: 1px;
+}
+
+.admin_profile_big_box .admin_profile_name_box {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.admin_uploade_input_typing_uploade_box {
+  width: 100%;
+}
+
+.admin_uploade_input_typing_uploade_box textarea {
+  width: 100%;
+  border: none;
+  resize: none;
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 50px;
+  outline: none;
+}
+
+.admin_value_input_comment_box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  border-top: 1px solid #bbbbbb;
+  width: 100%;
+}
+
+.admin_number_input_text_upBox {
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.admin_number_input_text_upBox p {
+  color: #a0a0a0;
+}
+
+.admin_comment_uploade_btn {
+  height: 40px;
+  width: 75px;
+  background-color: #0278ff;
+  color: white;
+  line-height: 40px;
+  cursor: pointer;
+  margin-right: -1px;
+  text-align: center;
+}
+
+.admin_comment_many_box {
+  border-bottom: 1px solid #eaeaea;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.admin_profile_big_box {
+  display: flex;
+}
+
+.admin_comment_many_box .admin_profile_box {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #d3d3d3;
+}
+
+.admin_profile_big_box .admin_profile_name_box {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.admin_comment_contents_box {
+  text-align: left;
+  padding-left: 40px;
+}
+
+.admin_comment_comment_date_time_box {
+  display: flex;
+  align-items: center;
+}
+
+.admin_comment_comment_date_time_box button {
+  width: 50px;
+  height: 25px;
+  border: 1px solid #b4b4b4;
+  background-color: #fff;
+}
+
+.admin_comment_comment_date_time_box p {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.admin_comment_double_comments_big_box {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+#admin_comment_comment_input_gaci_box {
+  width: 94%;
+  margin: auto;
+}
+
+.admin_commet_comment_input_gaci_box {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.admin_comment_enter_img_box {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.admin_comment_not_input_box .admin_comment_many_box {
+  width: 94%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.forum_comments_delete_button_box .data_post_comments_delete_btn {
+  margin-left: 5px;
+}
+
+.forum_comments_delete_button_box .service_post_comments_delete_btn {
+  margin-left: 5px;
+}
+
+/* Sales_service_management 서비스 상세정보 */
+
+.backoffice_contents .Sales_Service_management_wrap {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.backoffice_contents .service_title_wrap_left {
+  float: left;
+  line-height: 50px;
+}
+
+.backoffice_contents .service_title_wrap_left div {
+  display: inline-block;
+  font-size: 17px;
+  font-weight: bold;
+  padding-left: 10px;
+  margin: 0;
+}
+
+.backoffice_contents .service_title_wrap_left p {
+  width: auto;
+  height: 22px;
+  color: #fff;
+  border-radius: 5px;
+  display: inline-block;
+  line-height: 22px;
+  text-align: center;
+  padding: 0 15px;
+  margin: 0 0 0 10px;
+  font-size: 13px;
+}
+
+.backoffice_contents .service_title_wrap_left .create_badge {
+  background-color: #27cb7c;
+}
+
+.backoffice_contents .service_title_wrap_left .sales_badge {
+  background-color: #5a85fc;
+}
+
+.backoffice_contents .service_title_wrap_left .sales_stop_badge {
+  background: #555555;
+}
+
+.backoffice_contents .service_title_wrap_left .judge_badge {
+  background: #f46b78;
+}
+
+.backoffice_contents .service_title_wrap_left .judge_ok_badge {
+  background: #00a7ff;
+}
+
+.backoffice_contents .service_title_wrap_left .judge_return_badge {
+  background: #ffaa23;
+}
+
+.backoffice_contents .service_title_wrap_left .id_badge {
+  background-color: #4993c7;
+}
+
+td > .table_td_text_add > p {
+  margin-bottom: 0;
+  padding: 5px 0;
+}
+
+/* Sales_Service_management */
+
+.backoffice_contents
+  .Sales_Service_management_wrap
+  .backoffice_search_wrap
+  .search_text_wrap,
+.backoffice_contents
+  .Sales_data_management_wrap
+  .backoffice_search_wrap
+  .search_text_wrap,
+.backoffice_contents
+  .Sales_Service_management_wrap
+  .backoffice_search_wrap
+  .search_wrap,
+.backoffice_contents
+  .Sales_data_management_wrap
+  .backoffice_search_wrap
+  .search_wrap {
+  height: 70px;
+}
+
+.backoffice_contents .backoffice_title_sub {
+  font-size: 21px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+.backoffice_contents .Page_same_sub_text {
+  margin: 0;
+}
+
+/* Calculate_management 정산관리 */
+
+.backoffice_contents .Calculate_management_wrap .date_monthly_select > select {
+  width: 100px;
+  display: inline-block;
+}
+
+.backoffice_contents .Calculate_management_wrap .date_monthly_select > p {
+  padding: 0 5px;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.backoffice_contents
+  .Calculate_management_wrap
+  .date_monthly_select
+  > .date_monthly_select_text_connect {
+  padding: 0 15px 0 10px;
+}
+
+.Calculate_management_wrap
+  .backoffice_table_wrap
+  table
+  tbody
+  tr
+  td:first-child {
+  min-width: 110px;
+}
+.Calculate_management_wrap
+  .backoffice_table_wrap
+  table
+  tbody
+  tr
+  td:nth-child(2) {
+  min-width: 130px;
+}
+
+.Calculate_management_wrap
+  .backoffice_table_wrap.calculate_table_wrap
+  .table-responsive {
+  overflow-x: hidden;
+}
+
+/* Calculate_entry 정산등록 */
+.calculate_entry_wrap .calculate_input {
+  font-size: 17px;
+}
+
+.calculate_entry_wrap .calculate_input input {
+  border-radius: 5px;
+  display: inline-block;
+  width: 230px;
+}
+.calculate_entry_wrap .calculate_input input#date1,
+.calculate_entry_wrap .calculate_input input#date2 {
+  width: 105px;
+}
+.calculate_entry_wrap .calculate_input label {
+  width: 170px;
+}
+.calculate_entry_wrap .calculate_input button {
+  margin-left: 5px;
+  font-size: 15px;
+  padding: 5px 35px;
+}
+.calculate_entry_wrap .calculate_table_wrap {
+  padding-top: 5px;
+}
+.calculate_entry_wrap .calculate_table_wrap td {
+  line-height: 35px;
+}
+.calculate_entry_wrap .calculate_table_wrap td p,
+.calculate_entry_wrap .calculate_table_wrap td p .form-control {
+  display: inline-block;
+  color: #555;
+  background-color: #fff;
+  text-align: center;
+  padding: 0 10px;
+}
+.calculate_entry_wrap .calculate_table_wrap p .table_view_btn {
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+.calculate_entry_wrap .calculate_table_wrap td .form-control {
+  display: inline-block;
+}
+.calculate_entry_wrap .calculate_table_wrap td:nth-child(5) .form-control {
+  width: 100px;
+}
+.calculate_entry_wrap .calculate_table_wrap td:nth-child(6) .form-control {
+  width: 200px;
+}
+.calculate_entry_wrap .calculate_table_wrap td:nth-child(5),
+.calculate_entry_wrap .calculate_table_wrap td:nth-child(6) {
+  text-align: center;
+  width: 300px;
+}
+
+.Calculate_management_wrap
+  .calculate_entry_wrap
+  .calculate_table_wrap
+  .aling-middel
+  div
+  p {
+  line-height: 10px;
+}
+
+/* Using_guide 이용 가이드 */
+.data_guide_wrap,
+.admin_user_manage_wrap .admin_user_manage_table_wrap {
+  margin-top: -30px;
+}
+
+.using_guide_wrap .backoffice_table_wrap td:nth-child(2) {
+  text-align: left;
+}
+.usgin_guide_wrap .backoffice_table_wrap td:nth-child(3) {
+  width: 100px;
+}
+.using_guide_wrap .data_guide_wrap .backoffice_table_wrap button {
+  padding: 2px 0;
+}
+
+/* User_authority 회원권한설정 */
+.user_authority_wrap .user_authority_table_wrap {
+  margin-top: -50px;
+}
+.user_authority_wrap .backoffice_table_wrap .table_view_btn {
+  padding: 2px 0;
+  margin: 0 2px;
+}
+.user_authority_wrap .backoffice_table_wrap td {
+  text-align: center;
+}
+.user_authority_wrap .backoffice_table_wrap td:last-child {
+  width: 300px;
+}
+
+/* Admin_user_manage 관리자 회원관리 */
+.admin_user_manage_wrap .backoffice_table_wrap .caption_title {
+  float: left;
+}
+.admin_user_manage_wrap .caution_txt {
+  float: right;
+  line-height: 56px;
+}
+.admin_user_manage_wrap .backoffice_table_wrap .tb_caption {
+  margin-bottom: -20px;
+}
+
+/* Home */
+
+.backoffice_contents .home_accept,
+.backoffice_contents .home_accept_wrap,
+.backoffice_contents .home_statistics,
+.backoffice_contents .home_statistics .home_statistics_wrap {
+  display: inline-block;
+}
+
+.backoffice_contents .home_accept .home_accept_wrap,
+.backoffice_contents .home_statistics .home_statistics_wrap {
+  width: 400px;
+  height: 100px;
+  border-radius: 15px;
+  background-color: #333949ad;
+  color: #fff;
+  margin: 10px 10px;
+}
+.backoffice_contents .home_accept .home_accept_wrap:first-child,
+.backoffice_contents .home_statistics .home_statistics_wrap:first-child {
+  background-color: #3da6f2;
+}
+.backoffice_contents .home_accept .home_accept_wrap:nth-child(2),
+.backoffice_contents .home_statistics .home_statistics_wrap:nth-child(2) {
+  background: #3695d9;
+}
+.backoffice_contents .home_accept .home_accept_wrap:nth-child(3),
+.backoffice_contents .home_statistics .home_statistics_wrap:nth-child(3) {
+  background: #2e7eb8;
+}
+.backoffice_contents .home_accept .home_accept_wrap:nth-child(4),
+.backoffice_contents .home_statistics .home_statistics_wrap:nth-child(4) {
+  background-color: #276b9c;
+}
+.backoffice_contents .home_accept .home_accept_wrap:nth-child(5),
+.backoffice_contents .home_statistics .home_statistics_wrap:nth-child(5) {
+  background: #1f567d;
+}
+.backoffice_contents .home_accept .home_accept_wrap:last-child,
+.backoffice_contents .home_statistics .home_statistics_wrap:last-child {
+  background: #163f5b;
+}
+
+.backoffice_contents .home_accept .home_accept_wrap .home_accept_bottom_number {
+  padding-left: 40px;
+  padding-top: 5px;
+  font-weight: 600;
+}
+
+.backoffice_contents .home_accept .home_accept_bottom_title {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.backoffice_contents .home_more_btn {
+  display: inline-block;
+  float: right;
+  padding-right: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.backoffice_contents .admin_home_table_wrap {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  min-width: 1025px;
+}
+
+.backoffice_contents .admin_home_table_wrap .admin_home_notice_table,
+.backoffice_contents .admin_home_table_wrap .admin_home_update_table {
+  width: 49%;
+  max-width: 49%;
+  float: left;
+}
+
+.backoffice_contents .admin_home_table_wrap .admin_home_update_table {
+  float: right;
+}
+
+.backoffice_contents .Admin_home_wrap .table-responsive .table {
+  font-weight: 600;
+}
+
+.backoffice_contents .Admin_home_wrap .tb_caption {
+  caption-side: top;
+}
+
+.backoffice_contents .Admin_home_wrap .caption_title {
+  width: max-content;
+  float: left;
+  font-size: 18px;
+  padding-left: 5px;
+  margin: 0;
+  color: #6c6c6c;
+  font-weight: bold;
+  height: inherit;
+  line-height: inherit;
+}
+
+.backoffice_contents .Admin_home_wrap .caption_btn {
+  height: inherit;
+  line-height: inherit;
+  cursor: pointer;
+  width: max-content;
+  float: right;
+}
+
+.backoffice_contents .Admin_home_wrap .caption_btn p {
+  color: #a7a7a7;
+  display: inline-block;
+  font-size: 15px;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.backoffice_contents .Admin_home_wrap .table .caption_btn img {
+  height: 16px;
+  padding: 0px 6px 6px 6px;
+  margin-top: 5px;
+}
+
+.backoffice_contents .Admin_home_wrap .home_statistics_bottom_number,
+.backoffice_contents .Admin_home_wrap .home_statistics_bottom_title {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.backoffice_contents .Admin_home_wrap .home_statistics_bottom_number {
+  font-weight: 700;
+}
+
+.backoffice_contents .Admin_home_wrap .home_statistics_bottom_title {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* Using_guide_detail  이용 가이드 상세 */
+.using_guide_detail_wrap .guide_content_wrap .guide_content {
+  font-size: 16.5px;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.using_guide_detail_wrap .guide_list_wrap {
+  margin-bottom: 30px;
+}
+.using_guide_detail_wrap .guide_list_wrap .jumbotron {
+  padding: 10px;
+  border-radius: 10px;
+}
+.using_guide_detail_wrap .guide_detail_box_title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  display: block;
+  padding: 10px 0 0 10px;
+}
+.using_guide_detail_wrap .jumbotron > ul {
+  text-align: left;
+  color: #2288fd;
+  font-size: 16.5px;
+  margin: 0;
+}
+.using_guide_detail_wrap .guide_list_wrap .jumbotron > ul li {
+  margin: 10px 0;
+  line-height: 23px;
+}
+.using_guide_detail_wrap .guide_list_wrap .jumbotron > ul li img {
+  margin: -3px 10px 0 10px;
+}
+.using_guide_detail_wrap .guide_list_wrap .jumbotron > ul li p {
+  margin: 0;
+  line-height: 23px;
+  padding: 0;
+  display: inline-block;
+  font-size: 16.5px;
+  font-weight: 500;
+}
+.using_guide_detail_wrap .guide_list_title {
+  padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 25px 15px 12px 0;
+}
+.using_guide_detail_wrap .guide_list_btn {
+  float: right;
+  padding-top: 10px;
+}
+.using_guide_detail_wrap .guide_list_btn button:first-child {
+  margin-right: 10px;
+}
+/* Using_guide_modify  이용 가이드 */
+.using_guide_modify_wrap .guide_list_btn {
+  text-align: center;
+  float: none;
+}
+.using_guide_modify_wrap .list_modify {
+  padding-left: 10px;
+}
+.using_guide_modify_wrap .list_modify .list_modify_sub input {
+  width: 600px;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+.using_guide_modify_wrap .list_modify .list_modify_sub button {
+  padding: 5px 25px;
+  margin: 0 5px;
+}
+.using_guide_modify_wrap .form-control {
+  display: inline-block;
+}
+
+/* User_authority 회원권한설정 */
+.user_authority_wrap .user_authority_table_wrap {
+  margin-top: -50px;
+}
+.user_authority_wrap .backoffice_table_wrap .table_view_btn {
+  padding: 2px 0;
+  margin: 0 2px;
+}
+.user_authority_wrap .backoffice_table_wrap td {
+  text-align: center;
+}
+.user_authority_wrap .backoffice_table_wrap td:last-child {
+  width: 300px;
+}
+
+/* Admin_user_manage 관리자 회원관리 */
+.admin_user_manage_wrap .backoffice_table_wrap .caption_title {
+  float: left;
+}
+.admin_user_manage_wrap .caution_txt {
+  float: right;
+  line-height: 56px;
+}
+.admin_user_manage_wrap .backoffice_table_wrap .tb_caption {
+  margin-bottom: -20px;
+}
+
+#gaci_Writer {
+  margin-bottom: 10px;
+}
+
+#gaci_Writer p {
+  font-size: 16.5px;
+  font-weight: bold;
+}
+
+.backoffice_table_wrap #Notice_table_box tr > td:first-child,
+.backoffice_table_wrap #faq_table_box tr > td:first-child,
+.backoffice_table_wrap #uploade_talbe_box tr > td:first-child {
+  width: 70px;
+}
+
+#date_picker_sp_box {
+  display: flex;
+  align-items: center;
+}
+
+.back_admin_date_picker_box {
+  margin-left: 15px;
+}
+
+.service_slaes_management_wrap .back_admin_date_picker_box,
+.data_sales_management_wrap .back_admin_date_picker_box,
+.Api_sales_management_wrap .back_admin_date_picker_box,
+.Notice_from_wrap .back_admin_date_picker_box {
+  margin-left: 0px;
+}
+
+.back_admin_date_picker_box > div {
+  display: flex;
+}
+
+.sp_date_picker_forum > div {
+  display: flex;
+}
+
+.admin_datePicker_box {
+  display: flex;
+}
+
+.admin_left_wrap_box {
+  padding-left: 65px;
+}
+
+.User_info_Data_sale_table_wrap td:first-child {
+  min-width: 70px;
+}
+
+.backoffice_contents .picker-input__text {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.backoffice_contents .table-responsive {
+  overflow: visible;
+}
+
+.backoffice_contents .table_view_btn {
+  padding: 3px 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: #666;
+  color: #fff;
+}
+
+.limit_service_image_box {
+  width: 150px;
+  height: 100px;
+  border: 1px solid #cccc;
+  border-radius: 5px;
+  line-height: 100px;
+}
+
+.limit_service_image_box img {
+  width: 45px;
+  height: 33px;
+}
+
+.backoffice_contents .Sales_info_detail_default_wrap {
+  border: 1px solid #ccc;
+  border-right: hidden;
+  border-left: hidden;
+  overflow: hidden;
+}
+
+.backoffice_contents .Sales_info_exposure_info_first_wrap,
+.backoffice_contents .Sales_info_exposure_info_second_wrap,
+.backoffice_contents .Sales_info_payment_info_first_wrap,
+.backoffice_contents .Sales_info_payment_info_second_wrap {
+  flex: 1;
+}
+
+.backoffice_contents .Sales_info_exposure_info_first_wrap,
+.backoffice_contents .Sales_info_payment_info_first_wrap {
+  max-width: 180px;
+  border-right: 1px solid #ccc;
+}
+
+.backoffice_contents .Sales_info_exposure_info_first_wrap > div,
+.backoffice_contents .Sales_info_payment_info_first_wrap > div {
+  min-width: 170px;
+  height: 60px;
+  text-align: left;
+  font-size: 16.5px;
+  font-weight: bold;
+  line-height: 65px;
+  padding: 0 10px 0 10px;
+}
+
+.backoffice_contents .Sales_info_exposure_info_first_wrap > div > p,
+.backoffice_contents .Sales_info_payment_info_first_wrap > div > p {
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.backoffice_contents .checkbox_radio_double_wrap,
+.Sales_info_Contact_wrap {
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  padding-left: 10px;
+}
+
+.backoffice_contents .Sales_info_exposure_info_second_wrap,
+.backoffice_contents .Sales_info_payment_info_second_wrap {
+  max-width: 1315px;
+}
+
+.backoffice_contents .Sales_info_exposure_info_second_notice {
+  display: inline-block;
+  padding-left: 5px;
+  color: red;
+  font-weight: 700;
+}
+
+.backoffice_contents .Sales_info_Contact_wrap input {
+  width: 230px;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.backoffice_contents .Sales_info_exposure_info_second_notice_wrap {
+  padding-left: 10px;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_second_notice_wrap
+  > .Sales_info_exposure_info_second_notice {
+  height: 60px;
+  padding-top: 18px;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_second_notice_wrap
+  > .Sales_info_exposure_info_second_notice
+  > p {
+  height: 18px;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+.backoffice_contents .Sales_info_sc_wrap {
+  padding: 0 2px;
+}
+
+.backoffice_contents .Sales_info_sc_left_wrap {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.backoffice_contents .Sales_info_sc_left_wrap,
+.backoffice_contents .Sale_info_sc_right_wrap {
+  float: left;
+}
+
+.backoffice_contents .Sales_info_sc_left_wrap > div {
+  text-align: center;
+}
+
+.backoffice_contents .Sales_info_sc_img_wrap {
+  width: 130px;
+  height: 90px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  line-height: 90px;
+}
+
+.backoffice_contents .Sales_info_sc_img_wrap > img {
+  display: inline-block;
+  width: 45px;
+  height: 33px;
+}
+
+.backoffice_contents .Sales_info_sc_left_wrap > div > p {
+  display: inline-block;
+  margin: 5px 0;
+  font-weight: 700;
+}
+
+.backoffice_contents .Sales_info_sc_left_wrap > div > p + img {
+  width: 10px;
+  margin: 7px 5px 5px 5px;
+  cursor: pointer;
+}
+
+.backoffice_contents .Sales_info_sc_file_btn_wrap {
+  margin: 10px 0;
+}
+
+.backoffice_contents
+  .Sales_info_sc_file_name_wrap
+  + .Sales_info_sc_file_btn_wrap {
+  margin: 0;
+}
+
+.backoffice_contents .Sales_info_sc_left_wrap > div > input[type="file"] {
+  display: none;
+}
+
+.backoffice_contents
+  .Sales_info_sc_left_wrap
+  > div
+  > input[type="file"]
+  + label {
+  background-color: #555555;
+  color: #fff;
+  padding: 3px 15px;
+  border: hidden;
+  border-radius: 5px;
+}
+
+.backoffice_contents .Sales_info_sc_right_wrap {
+  display: inline-block;
+  width: 680px;
+  text-align: right;
+  padding: 10px 0;
+}
+
+.backoffice_contents .Sales_info_sc_right_wrap > div {
+  margin: 10px 0;
+}
+
+.backoffice_contents .Sales_info_sc_right_wrap > div > div {
+  float: left;
+  display: inline-block;
+  margin-top: 7px;
+}
+
+.backoffice_contents .Sales_info_sc_right_wrap > div > div > img + p {
+  display: inline-block;
+  padding-left: 5px;
+  margin-left: 3px;
+  margin-bottom: 0;
+  color: #7b7b7b;
+  font-weight: 600;
+}
+
+.backoffice_contents .Sales_info_sc_right_wrap > div > div + input,
+.backoffice_contents .Sales_info_sc_right_wrap > div > div + textarea {
+  display: inline-block;
+  width: 560px;
+  margin-left: 10px;
+}
+
+.backoffice_contents .Sales_info_sc_right_first_wrap,
+.Sales_info_sc_right_second_wrap {
+  display: inline-block;
+}
+
+.backoffice_contents .Sales_info_sc_right_upload_wrap {
+  padding: 20px 0;
+}
+
+.backoffice_contents .Sales_info_exposure_info_wrap,
+.Sales_info_payment_info_wrap {
+  display: flex;
+}
+
+.backoffice_contents .Sales_info_payment_info_wrap .payment_info_radio_wrap {
+  height: 55px;
+  line-height: 60px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_wrap
+  .payment_info_radio_wrap
+  > div {
+  display: inline-block;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_wrap
+  .radio_inputButton_box
+  input[type="radio"]
+  + label:before {
+  top: 20px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_wrap
+  .radio_inputButton_box
+  input[type="radio"]:checked
+  + label:after {
+  top: 24px;
+}
+
+.backoffice_contents .Sales_info_payment_info_notice_wrap span {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.backoffice_contents .Sales_info_payment_info_btn_wrap > button {
+  background-color: #555555;
+  color: #fff;
+  padding: 5px 20px;
+  border: hidden;
+  border-radius: 5px;
+  line-height: normal;
+  margin: 0 10px;
+}
+
+.backoffice_contents .Sales_info_payment_info_second_wrap {
+  padding-left: 15px;
+}
+
+.backoffice_contents .Sales_info_payment_info_text_wrap {
+  height: 60px;
+  line-height: 60px;
+}
+
+.backoffice_contents .Sales_info_payment_info_text_wrap > input {
+  display: inline-block;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_text_wrap
+  .radio_inputButton_box
+  input[type="radio"]
+  + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.backoffice_contents
+  .radio_inputButton_box
+  input[type="radio"]
+  + label:active:before,
+.backoffice_contents
+  .radio_inputButton_box
+  input[type="radio"]:checked
+  + label:active:before {
+  background-color: #fff;
+}
+
+.backoffice_contents
+  .radio_inputButton_box
+  input[type="radio"]:checked
+  + label:before {
+  background: #fff;
+  border-color: #d4d4d4;
+}
+
+.backoffice_contents
+  .radio_inputButton_box
+  input[type="radio"]:checked
+  + label:after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  width: 13px;
+  height: 13px;
+  background: #99a1a7;
+  border-radius: 100%;
+  background-color: #00a7ff;
+}
+
+.backoffice_contents .Sales_info_payment_info_input_wrap {
+  background-color: #ececec;
+  width: 740px;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box {
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box
+  input[type="checkbox"]
+  + label:before {
+  top: 0;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box
+  input[type="checkbox"]:checked
+  + label:after {
+  top: 4px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box
+  label {
+  margin-top: 13px;
+  margin-left: 8px;
+}
+
+.backoffice_contents .Sales_info_payment_info_input {
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.backoffice_contents .Sales_info_payment_info_input > p {
+  color: #a4a4a4;
+}
+
+.backoffice_contents .Sales_info_payment_info_input > p,
+.Sales_info_payment_info_input > input,
+.backoffice_contents .Sales_info_payment_info_input > span {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.backoffice_contents .Sales_info_payment_info_input > input {
+  width: 180px;
+}
+
+.backoffice_contents .Sales_info_payment_info_wrap .Sales_info_payment_method {
+  height: 205px;
+}
+
+.backoffice_contents .Sales_info_detail_payment_default_wrap {
+  margin-bottom: 50px;
+}
+
+.backoffice_contents .Sales_info_payment_info_input_wrap button {
+  background-color: #555555;
+  color: #fff;
+  padding: 5px 20px;
+  border: hidden;
+  border-radius: 5px;
+  line-height: normal;
+  margin: 0 2px;
+  display: inline-block;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box_btn {
+  margin: 5px 0 5px 10px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box_btn
+  .checkbox_design {
+  margin-right: 10px;
+}
+
+.backoffice_contents .radio_inputButton_box_btn + button {
+  padding: 4px 10px;
+}
+
+.backoffice_contents .Sales_info_detail_default_wrap {
+  margin-bottom: 40px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_wrap
+  .radio_inputButton_box
+  input[type="radio"]
+  + label:before {
+  top: 20px;
+}
+
+/* Service_Sales_info_exposure_info_wrap 서비스 판매정보 */
+
+.backoffice_contents
+  .Service_Sales_info_exposure_info_wrap
+  .Sales_info_Contact_wrap
+  input {
+  width: 740px;
+}
+
+.backoffice_contents
+  .Service_Sales_info_exposure_info_wrap
+  .Sales_info_Explan_wrap {
+  height: 70px;
+  line-height: normal;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_first_wrap
+  > .Sales_info_exposure_info_left_sm {
+  height: 70px;
+}
+
+.backoffice_contents
+  .Service_Sales_info_exposure_info_wrap
+  .Sales_info_Explan_wrap
+  > input
+  + div {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_first_wrap
+  > .Sales_info_exposure_info_left_medium {
+  height: 100px;
+}
+
+.backoffice_contents .Sales_info_exposure_info_left_medium_wrap {
+  height: 100px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_first_wrap
+  > .Sales_info_exposure_info_left_large {
+  height: 140px;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_second_wrap
+  .exposure_info_input_right_wrap {
+  padding: 0;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_second_wrap
+  .exposure_info_input_right_wrap
+  select {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.backoffice_contents .Sales_info_exposure_info_left_large_wrap {
+  height: 140px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.backoffice_contents
+  .Sales_Service_management_wrap
+  .Sales_info_exposure_info_second_wrap {
+  padding-bottom: 20px;
+}
+
+.backoffice_contents
+  .Sales_info_icon_img_wrap
+  .Sales_info_sc_left_wrap
+  > div
+  > p,
+.Sales_info_icon_img_wrap .Sales_info_sc_file_btn_wrap {
+  margin: 0;
+}
+
+.backoffice_contents
+  .Service_Sales_info_exposure_info_second_wrap
+  .Sales_info_exposure_info_second_notice_wrap
+  > .Sales_info_exposure_info_second_notice {
+  height: 30px;
+}
+
+.backoffice_contents .Sales_info_icon_img_wrap .Sales_info_icon_img_wrap {
+  width: 100px;
+  height: 100px;
+}
+
+.backoffice_contents .Sales_info_icon_img_wrap .Sales_info_sc_left_center_wrap {
+  margin: 20px 20px;
+}
+
+.backoffice_contents
+  .Sales_info_exposure_info_first_wrap
+  > .Sales_info_service_icon {
+  height: 245px;
+}
+
+.backoffice_contents .Sales_info_detail_default_wrap + .button_s_box {
+  margin-top: 50px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_input_wrap
+  .Sales_info_payment_info_input
+  select {
+  width: 180px;
+  height: 34px;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.backoffice_contents .Sales_info_payment_info_input_wrap .large_list_icon {
+  margin-right: 5px;
+}
+
+.backoffice_contents .Sales_info_payment_info_notice_wrap .nbsp {
+  margin-left: 12px;
+  display: inline-block;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_second_wrap
+  .Sales_info_payment_info_input_mb_none {
+  margin-bottom: 5px;
+}
+
+.backoffice_contents .Sales_info_payment_info_input_title {
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 15.5px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_second_wrap
+  .Sales_info_payment_info_input_title
+  > img {
+  margin: 10px 8px 10px 13px;
+}
+
+.backoffice_contents .Sales_info_payment_info_point_input_wrap {
+  margin-top: 10px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_second_wrap
+  .Sales_info_payment_info_point_input_wrap
+  .payment_info_radio_wrap {
+  line-height: normal;
+  height: 40px;
+}
+
+.backoffice_contents
+  .Sales_info_detail_default_wrap
+  .Sales_info_payment_info_point_input_wrap
+  .radio_inputButton_box
+  input[type="radio"]
+  + label:before {
+  top: -3px;
+}
+
+.backoffice_contents
+  .Sales_info_detail_default_wrap
+  .Sales_info_payment_info_point_input_wrap
+  .radio_inputButton_box
+  input[type="radio"]:checked
+  + label:after {
+  top: 1px;
+}
+
+.backoffice_contents
+  .Sales_info_detail_default_wrap
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box_btn
+  input[type="radio"]
+  + label:before {
+  top: -1px;
+}
+
+.backoffice_contents
+  .Sales_info_detail_default_wrap
+  .Sales_info_payment_info_input_wrap
+  .radio_inputButton_box_btn
+  input[type="radio"]:checked
+  + label:after {
+  top: 3px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_point_input_wrap
+  .payment_info_radio_wrap
+  > div {
+  margin: 0px 10px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_first_wrap
+  > .Service_Sales_info_payment_method {
+  height: 387px;
+}
+
+.backoffice_contents
+  .Sales_info_payment_info_second_wrap
+  .Sales_info_payment_info_input_mb_none
+  + .radio_inputButton_box_btn {
+  margin-bottom: 0;
+}
+
+.backoffice_contents .Sales_info_sc_icno_file_btn_wrap > label {
+  margin-top: 5px;
+}
+
+.backoffice_href_wrap a:hover,
+.backoffice_href_wrap a:focus {
+  text-decoration: none;
+}
+.backoffice_href_wrap nav#sidebar a:hover {
+  text-decoration: none;
+}
+
+.backoffice_href_wrap nav#sidebar h3.admin_data_big_text,
+.backoffice_href_wrap nav#sidebar h3.admin_data_big_text:hover,
+.backoffice_href_wrap nav#sidebar h3.admin_data_big_text:focus,
+.backoffice_href_wrap nav#sidebar h3.admin_data_big_text:active {
+  color: white;
+  text-decoration: none !important;
+}
+
+.backoffice_href_wrap .Notice_information_wrap .link_style_text,
+.backoffice_href_wrap #faq_table_box .link_style_text,
+.backoffice_href_wrap #question_table .link_style_text,
+.backoffice_href_wrap #uploade_talbe_box .link_style_text,
+.backoffice_href_wrap #Using_backoffice_guide_table .link_style_text {
+  color: #1a1a1a;
+}
+
+.backoffice_href_wrap
+  .Notice_information_wrap
+  #notice_uploade_btn
+  .link_style_text,
+.backoffice_href_wrap #faq_table_box #faq_uploade_btn .link_style_text,
+.backoffice_href_wrap #uploade_talbe_box #update_uploade_btn .link_style_text {
+  color: white;
+}
+
+.border-table th, .border-table td {
+  width: 150px;
+  margin: 0;
+  border: 1px solid lightgray;
+}
+
+.th_double_wrap p {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+.align_content_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -5px;
+}
+
+.width20 {
+  display: flex;
+  width: 50px;
+}
+
+.width60 {
+  width: 100px;
+  height: 25px;
+}
+
+
+.width30 {
+  width: 50px;
+  height: 25px;
+}
+
+
+.theadBackground {
+  background-color: turquoise;
+}
+
+.topMargin {
+  margin-top: +10px;
+}
+
+.bottom-padding-50 {
+  padding-bottom: 50px;
+}
+
+.height-35 {
+  height: 35px;
+}
+
+.customDatePickerWidth,
+.customDatePickerWidth > div.react-datepicker-wrapper,
+.customDatePickerWidth > div > div.react-datepicker__input-container
+.customDatePickerWidth > div > div.react-datepicker__input-container input {
+  width: 100%;
+  height: 100%;
+}
+.react-datepicker__input-container  {
+  width: inherit;
+  height: inherit;
+}
+.react-datepicker__input-container input {
+  width: inherit;
+  height: 100%;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+
+.customDatePickerWidth2,
+.customDatePickerWidth2 > div.react-datepicker-wrapper,
+.customDatePickerWidth2 > div > div.react-datepicker__input-container
+.customDatePickerWidth2 > div > div.react-datepicker__input-container input {
+  width: 100px;
+  height: 22px;
+}
+

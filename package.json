@@ -1,0 +1,49 @@
+{
+  "name": "react-next9-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next -p 3001",
+    "build": "cross-env ANALYZE=true NODE_ENV=production next build",
+    "start": "cross-env NODE_ENV=production next start -p 3001"
+    },
+  "author": "manhattansky73",
+  "license": "ISC",
+  "dependencies": {
+    "@next/bundle-analyzer": "^10.1.3",
+    "axios": "^0.21.1",
+    "cross-env": "^7.0.3",
+    "immutability-helper": "^3.1.1",
+    "jquery": "^3.6.0",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "next": "^9.5.5",
+    "next-redux-saga": "^4.1.2",
+    "next-redux-wrapper": "^6.0.2",
+    "pm2": "^4.5.6",
+    "react": "^17.0.2",
+    "react-confirm-alert": "^2.7.0",
+    "react-datepicker": "^3.7.0",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-validation": "^3.0.7",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.1.3",
+    "ssr-cookie": "^1.0.2",
+    "styled-component": "^2.8.0",
+    "styled-components": "^5.2.3",
+    "swr": "^0.5.5",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  }
+}
